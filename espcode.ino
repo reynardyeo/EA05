@@ -7,12 +7,14 @@ const char* password = "Your wifi password";
 // specify the port to listen on as an argument
 WiFiServer server(80);
 int flag=0;
-int sensorValue=0;
+int sensorValue=0;  //gas sensor 
+int vsensorValue=0; //vibration sensor
 void setup() {
   Serial.begin(115200);
   delay(10);
 
-  pinMode(D0, OUTPUT);
+  pinMode(9, OUTPUT);  //gas sensor connect to GPIO 9
+  pinMode(10, OUTPUT);  //vibration sensor connect to GPIO 10
   digitalWrite(D0, 0);
   
   // Connect to WiFi network
