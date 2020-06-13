@@ -30,7 +30,8 @@ This lowers the risk of residents getting harmed and lowers the time for SCDF/Am
 Modules required:
 1) Grove – Vibration Sensor (SW-420)
 2) MQ-2 Gas Sensor Smoke Detection Module Sensor ICSG017A
-3) ESP32
+3) ESP32 /ESP8266
+4) Arduino Uno
 
 Vibration Sensor:
 Non-directional
