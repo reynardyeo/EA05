@@ -1,2 +1,5 @@
-Sup y'alls
-Remember code doesn't need to work
+SCDF Coding Challenge
+
+Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
+
+Solution: Integrating IOT with "myResponder" SCDF App
