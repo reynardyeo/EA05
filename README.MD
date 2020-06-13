@@ -8,7 +8,7 @@ Solution: Integrating IOT with "myResponder" SCDF App
 Modules required:
 1) Grove – Vibration Sensor (SW-420)
 2) MQ-2 Gas Sensor Smoke Detection Module Sensor ICSG017A
-3) SP32
+3)ESP32
 
 Vibration Sensor:
 Non-directional
