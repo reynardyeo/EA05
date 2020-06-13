@@ -7,7 +7,7 @@ Solution: Integrating IOT with "myResponder" SCDF App
 Install IOT ESP32 programmed with SW-420 and ICSG017A to detect for smoke (for fires), harmful gases (gas stove leakages) and fall detection.
 
 Plan: Program ESP32 using Arduino, use IBM IoT and IBM data science. 
-ESP32 with Arduino - Program to detect vibration to tell if someone has fallen. Program to detect harmful gases. 
+ESP32  - Program to detect vibration to tell if someone has fallen. Program to detect harmful gases. 
 
 
 How to start?
