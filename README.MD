@@ -1,5 +1,9 @@
 SCDF Coding Challenge
 
+Members: Faaris, Wen Da, Reynard, Allen
+Singapore Polytechnic, Diploma in Mechanical engineering with Engineering Academy, final year students
+
+
 Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
 
 Solution: Integrating IOT with "myResponder" SCDF App
