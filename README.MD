@@ -102,12 +102,14 @@ Install the code into the ESP32, wire the ESP32 with the sensors
 
 
 ## Running tests:
-Vibration Sensor) Find sensitivity for Vibration Sensor by getting datasets first. 
+###Vibration Sensor: 
+Find sensitivity for Vibration Sensor by getting datasets first. 
 Capture usual vibration such as walking, running and jumping. Capture falls seperately to compare. 
 Using IBM Data science, compare the values. 
 Eg, falls will have large vibration, followed by one to two smaller vibrations. Set the Vibration Sensor to that value.
 
-Gas Sensor) Test to check gas leaks and smoke triggers the sensor. Set values to only trigger if gas leak or smoke is detected.
+###Gas Sensor: 
+Test to check gas leaks and smoke triggers the sensor. Set values to only trigger if gas leak or smoke is detected.
 
 ## What we used to build our solution:
 IBM Cloudant and IBM Node-Red and IBM Data Science
