@@ -1,16 +1,16 @@
-#SCDF Coding Challenge
+# SCDF Coding Challenge
 
 Members: Faaris, Wen Da, Reynard, Allen
 
 Singapore Polytechnic, Diploma in Mechanical engineering with Engineering Academy, final year students
 
 
-##Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
+## Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
 
 Proposed Solution: Integrating IOT with "myResponder" SCDF App
 
 <<<<<<< HEAD
-##Contents
+## Contents
 1.Short description
 2.Demo video
 3.The architecture
@@ -24,19 +24,19 @@ Proposed Solution: Integrating IOT with "myResponder" SCDF App
 11.Versioning
 12.Authors
 
-##Short Description 
+## Short Description 
 
 
 
-##Demo Video
+## Demo Video
 [![VIdeo](http://img.youtube.com/vi/Imq1fiuDmfY/0.jpg)](http://www.youtube.com/watch?v=Imq1fiuDmfY)
 
 
-##The Architecture
+## The Architecture
 ![Node-red](https://media.discordapp.net/attachments/701592981924216853/721280848321839124/Node-red.PNG)
 ![demo](https://media.discordapp.net/attachments/701592981924216853/721285855884607498/IBM_stuff_v4.png?width=1189&height=670)
 
-##Long Description
+## Long Description
 
 Singapore, although a highly developed country, is not entirely safe from accidents. These accidents may include house fires or our ever-growing elderly population who is worryingly living far away from their families and might not receive immediate aid if a physical injury occur as there is no one monitoring them. As such, our team wants to create a safer environment for our residents by incorporating smart technologies that provide faster reaction times by emergency services.
 
@@ -45,7 +45,7 @@ Our team will install the sensors in new hdb flats and current hdb flats, starti
 
 Our solution thus is able to detect anomalies and immediately inform emergency services of the potential problem, increasing the chances to save a life.
 
-##Project Roadmap:
+## Project Roadmap:
 
 =======
 Singapore, although a highly developed country, is not entirely safe from accidents. These accidents may include house fires or our ever-growing elderly population who is worryingly living far away from their families and might not receive immediate aid if a physical injury occur as there is no one monitoring them. As such, our team wants to create a safer environment for our residents by incorporating smart technologies that provide faster reaction times by emergency services.
@@ -76,7 +76,7 @@ When smoke sensor detects smoke/gas leak, residents in that area will be notifie
 This lowers the risk of residents getting harmed and lowers the time for SCDF/Ambulance to arrive.
 
 
-####Modules required
+#### Modules required
 1) Grove – Vibration Sensor (SW-420)
 
 2) MQ-2 Gas Sensor Smoke Detection Module Sensor ICSG017A
@@ -99,13 +99,13 @@ Application:
 For harmful gas family, environment detection device, is suitable for the detection of the ammonia, aromatic compounds, sulfide, benzene vapor, smoke and other harmful gas, gas
 sensitive element concentration range: 10 to 1000ppm provides reference cases.
 
-##Getting started
+## Getting started
 Install the code into the ESP32, wire the ESP32 with the sensors 
 ![esp1](https://raw.githubusercontent.com/reynardyeo/EA05/master/esp32-and-CCS811_schem.jpg)
 ![esp2](https://raw.githubusercontent.com/reynardyeo/EA05/master/D7s-Siesmic-Earthquake-vibration-detection-sensor-arduino-14core-02-892x1024.jpg)
 
 
-##Running tests:
+## Running tests:
 Vibration Sensor) Find sensitivity for Vibration Sensor by getting datasets first. 
 Capture usual vibration such as walking, running and jumping. Capture falls seperately to compare. 
 Using IBM Data science, compare the values. 
