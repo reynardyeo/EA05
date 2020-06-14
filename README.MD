@@ -7,7 +7,7 @@ Singapore Polytechnic, Diploma in Mechanical engineering with Engineering Academ
 
 ## Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
 
-Proposed Solution: Integrating IOT with "myResponder" SCDF App
+### Proposed Solution: Integrating IOT with "myResponder" SCDF App
 
 ## Contents
 1. [Short description](https://github.com/reynardyeo/EA05/blob/master/README.MD#short-description)
