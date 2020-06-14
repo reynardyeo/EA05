@@ -43,7 +43,6 @@ Our solution thus is able to detect anomalies and immediately inform emergency s
 
 ## Project Roadmap:
 
-=======
 Singapore, although a highly developed country, is not entirely safe from accidents. These accidents may include house fires or our ever-growing elderly population who is worryingly living far away from their families and might not receive immediate aid if a physical injury occur as there is no one monitoring them. As such, our team wants to create a safer environment for our residents by incorporating smart technologies that provide faster reaction times by emergency services.
 Our solution is a smart network called Firefly. It uses an ESP32 with vibration and gas/smoke sensors to detect falls, fires and gas leaks to call the emergency services and/or first aiders with the "myResponder" SCDF App. An IBM cloud is used to learn the types of vibration, whether it is common vibrations in the environment or actual people falling via data science. The same is used for the detection of smoke and gas. The app will also inform anyone in a 20m radius of the detected anomaly to gain community participation in resolving this issue.
 Our team will install the sensors in new hdb flats and current hdb flats, starting with areas with many elderly, specifically along the corridors and common areas such as staircases and void decks.We may receive distrust from residents due to privacy concerns, but we will educate them on the life-saving capabilities of the sensors and that they are not monitoring devices.
