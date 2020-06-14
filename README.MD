@@ -1,63 +1,27 @@
-# SCDF Coding Challenge
+SCDF Coding Challenge
 
 Members: Faaris, Wen Da, Reynard, Allen
-
 Singapore Polytechnic, Diploma in Mechanical engineering with Engineering Academy, final year students
 
 
-## Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
+Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
 
 Proposed Solution: Integrating IOT with "myResponder" SCDF App
 
-<<<<<<< HEAD
-## Contents
-1.Short description
-2.Demo video
-3.The architecture
-4.Long description
-5.Project roadmap
-6.Getting started
-7.Running the tests
-8.Demo
-9.Built with
-10.Contributing
-11.Versioning
-12.Authors
-
-## Short Description 
-
-
-
-## Demo Video
-[![VIdeo](http://img.youtube.com/vi/Imq1fiuDmfY/0.jpg)](http://www.youtube.com/watch?v=Imq1fiuDmfY)
-
-
-## The Architecture
-![Node-red](https://media.discordapp.net/attachments/701592981924216853/721280848321839124/Node-red.PNG)
-![demo](https://media.discordapp.net/attachments/701592981924216853/721285855884607498/IBM_stuff_v4.png?width=1189&height=670)
-
-## Long Description
-
 Singapore, although a highly developed country, is not entirely safe from accidents. These accidents may include house fires or our ever-growing elderly population who is worryingly living far away from their families and might not receive immediate aid if a physical injury occur as there is no one monitoring them. As such, our team wants to create a safer environment for our residents by incorporating smart technologies that provide faster reaction times by emergency services.
 
 Our solution is a smart network called Firefly. It uses an ESP32 with vibration and gas/smoke sensors to detect falls, fires and gas leaks to call the emergency services and/or first aiders with the "myResponder" SCDF App. An IBM cloud is used to learn the types of vibration, whether it is common vibrations in the environment or actual people falling via data science. The same is used for the detection of smoke and gas. The app will also inform anyone in a 20m radius of the detected anomaly to gain community participation in resolving this issue.
+
 Our team will install the sensors in new hdb flats and current hdb flats, starting with areas with many elderly, specifically along the corridors and common areas such as staircases and void decks.We may receive distrust from residents due to privacy concerns, but we will educate them on the life-saving capabilities of the sensors and that they are not monitoring devices.
 
 Our solution thus is able to detect anomalies and immediately inform emergency services of the potential problem, increasing the chances to save a life.
 
-## Project Roadmap:
-
-=======
-Singapore, although a highly developed country, is not entirely safe from accidents. These accidents may include house fires or our ever-growing elderly population who is worryingly living far away from their families and might not receive immediate aid if a physical injury occur as there is no one monitoring them. As such, our team wants to create a safer environment for our residents by incorporating smart technologies that provide faster reaction times by emergency services.
-Our solution is a smart network called Firefly. It uses an ESP32 with vibration and gas/smoke sensors to detect falls, fires and gas leaks to call the emergency services and/or first aiders with the "myResponder" SCDF App. An IBM cloud is used to learn the types of vibration, whether it is common vibrations in the environment or actual people falling via data science. The same is used for the detection of smoke and gas. The app will also inform anyone in a 20m radius of the detected anomaly to gain community participation in resolving this issue.
-Our team will install the sensors in new hdb flats and current hdb flats, starting with areas with many elderly, specifically along the corridors and common areas such as staircases and void decks.We may receive distrust from residents due to privacy concerns, but we will educate them on the life-saving capabilities of the sensors and that they are not monitoring devices.
-Our solution thus is able to detect anomalies and immediately inform emergency services of the potential problem, increasing the chances to save a life.
-
->>>>>>> 75f07d38823326474568d2f63cabe4fa6cb6e62c
 Install IOT ESP32 programmed with SW-420 and ICSG017A to detect for smoke (for fires), harmful gases (gas stove leakages) and fall detection.
 
 Plan: Program ESP32 using Arduino, use IBM IoT and IBM data science. 
 ESP32  - Program to detect vibration to tell if someone has fallen. Program to detect harmful gases. 
+
+Project Roadmap:
 
 How to start?
 Vibration Sensor) Find sensitivity for Vibration Sensor by getting datasets first. 
@@ -76,13 +40,10 @@ When smoke sensor detects smoke/gas leak, residents in that area will be notifie
 This lowers the risk of residents getting harmed and lowers the time for SCDF/Ambulance to arrive.
 
 
-#### Modules required
+Modules required:
 1) Grove – Vibration Sensor (SW-420)
-
 2) MQ-2 Gas Sensor Smoke Detection Module Sensor ICSG017A
-
 3) ESP32 /ESP8266
-
 4) Arduino Uno
 
 Vibration Sensor:
@@ -99,13 +60,10 @@ Application:
 For harmful gas family, environment detection device, is suitable for the detection of the ammonia, aromatic compounds, sulfide, benzene vapor, smoke and other harmful gas, gas
 sensitive element concentration range: 10 to 1000ppm provides reference cases.
 
-## Getting started
-Install the code into the ESP32, wire the ESP32 with the sensors 
-![esp1](https://raw.githubusercontent.com/reynardyeo/EA05/master/esp32-and-CCS811_schem.jpg)
-![esp2](https://raw.githubusercontent.com/reynardyeo/EA05/master/D7s-Siesmic-Earthquake-vibration-detection-sensor-arduino-14core-02-892x1024.jpg)
+Getting started:
+Install the code into the ESP32, wire the ESP32 with the sensors (refer to images in repo)
 
-
-## Running tests:
+Running tests:
 Vibration Sensor) Find sensitivity for Vibration Sensor by getting datasets first. 
 Capture usual vibration such as walking, running and jumping. Capture falls seperately to compare. 
 Using IBM Data science, compare the values. 
