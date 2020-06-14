@@ -120,5 +120,3 @@ Modules required
 2) MQ-2 Gas Sensor Smoke Detection Module Sensor ICSG017A
 
 3) ESP32 /ESP8266
-
-4) Arduino Uno
