@@ -17,7 +17,7 @@ Proposed Solution: Integrating IOT with "myResponder" SCDF App
 5. [Project roadmap](https://github.com/reynardyeo/EA05/blob/master/README.MD#project-roadmap)
 6. [Getting started](https://github.com/reynardyeo/EA05/blob/master/README.MD#getting-started)
 7. [Running the tests](https://github.com/reynardyeo/EA05/blob/master/README.MD#running-tests)
-8. [Built with](https://github.com/reynardyeo/EA05/blob/master/README.MD#built-with)
+8. [Built with](https://github.com/reynardyeo/EA05/blob/master/README.MD#what-we-used-to-build-our-solution)
 
 
 ## Short Description 
