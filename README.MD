@@ -6,13 +6,14 @@ Singapore Polytechnic, Diploma in Mechanical engineering with Engineering Academ
 
 Problem Statement Chosen: INTEGRATING WITH A SMART ENVIRONMENT
 
-Solution: Integrating IOT with "myResponder" SCDF App
+Proposed Solution: Integrating IOT with "myResponder" SCDF App
 
 Install IOT ESP32 programmed with SW-420 and ICSG017A to detect for smoke (for fires), harmful gases (gas stove leakages) and fall detection.
 
 Plan: Program ESP32 using Arduino, use IBM IoT and IBM data science. 
 ESP32  - Program to detect vibration to tell if someone has fallen. Program to detect harmful gases. 
 
+Project Roadmap:
 
 How to start?
 Vibration Sensor) Find sensitivity for Vibration Sensor by getting datasets first. 
@@ -50,3 +51,18 @@ Smoke Detection Sensor:
 Application:
 For harmful gas family, environment detection device, is suitable for the detection of the ammonia, aromatic compounds, sulfide, benzene vapor, smoke and other harmful gas, gas
 sensitive element concentration range: 10 to 1000ppm provides reference cases.
+
+Getting started:
+Install the code into the ESP32, wire the ESP32 with the sensors (refer to images in repo)
+
+Running tests:
+Vibration Sensor) Find sensitivity for Vibration Sensor by getting datasets first. 
+Capture usual vibration such as walking, running and jumping. Capture falls seperately to compare. 
+Using IBM Data science, compare the values. 
+Eg, falls will have large vibration, followed by one to two smaller vibrations. Set the Vibration Sensor to that value.
+
+Gas Sensor) Test to check gas leaks and smoke triggers the sensor. Set values to only trigger if gas leak or smoke is detected.
+
+What we used to build our solution:
+IBM Cloudant and IBM Node-Red and IBM Data Science
+
