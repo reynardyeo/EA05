@@ -9,7 +9,6 @@ Singapore Polytechnic, Diploma in Mechanical engineering with Engineering Academ
 
 Proposed Solution: Integrating IOT with "myResponder" SCDF App
 
-<<<<<<< HEAD
 ## Contents
 1. [Short description](https://github.com/reynardyeo/EA05/blob/master/README.MD#short-description)
 2. [Demo video](https://github.com/reynardyeo/EA05/blob/master/README.MD#demo-video)
