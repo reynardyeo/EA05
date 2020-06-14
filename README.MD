@@ -112,3 +112,11 @@ Gas Sensor) Test to check gas leaks and smoke triggers the sensor. Set values to
 ## What we used to build our solution:
 IBM Cloudant and IBM Node-Red and IBM Data Science
 
+Modules required
+1) Grove – Vibration Sensor (SW-420)
+
+2) MQ-2 Gas Sensor Smoke Detection Module Sensor ICSG017A
+
+3) ESP32 /ESP8266
+
+4) Arduino Uno
